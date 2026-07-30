@@ -165,9 +165,9 @@ function initChart(csvText, containerId = "chart-container") {
       zooming: { type: "xy" },
     },
 
-   /* title: {
-      text: "Slow Growth, High Quality Occupational Sectors: Construction and Extraction",
-    }, */
+    title: {
+      text: null, // "Slow Growth, High Quality Occupational Sectors: Construction and Extraction",
+    }, 
 
     subtitle: {
       text: "Bubble size reflects current number of jobs (2022).",
